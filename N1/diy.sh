@@ -10,6 +10,7 @@ echo "iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE" >> package/network/c
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/packages/net/haproxy
 rm -rf feeds/packages/net/v2ray-geodata
+rm -rf feeds/luci/applications/luci-app-unblockneteasemusic-go
 
 # Add packages
 svn co https://github.com/nantayo/my-pkg/trunk package/my-pkg
